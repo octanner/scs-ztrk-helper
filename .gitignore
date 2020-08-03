@@ -1,0 +1,30 @@
+# General Ignores + IDE
+.DS_Store
+settings.xml
+WEB-INF
+.env
+.vscode/*
+*.code-workspace
+*.sublime-workspace
+
+# logs + tests
+logs/**
+/testbox
+/tests/results/**
+/tests/resources/app/coldbox
+
+# npm
+**/node_modules/*
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+## Ignored Dependencies
+coldbox/*
+testbox/*
+modules/*
+/includes/js
+/includes/css
+/includes/fonts
+/includes/build
+**/apidocs/**
