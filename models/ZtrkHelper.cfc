@@ -1,9 +1,9 @@
 component singleton {
 
-	property name='settings'      inject='coldbox:setting:inventory-helper';
+	property name='settings'      inject='coldbox:setting:ztrk-helper';
 	property name='apiAuthHelper' inject='ApiAuthHelper';
 
-	public struct function insertRecord(
+	public struct function insert(
 		required string cell,
 		required string comments,
 		required string dept,

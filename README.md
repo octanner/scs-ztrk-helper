@@ -1,8 +1,6 @@
 # scs-ztrk-helper
-![Master Branch Build Status(https://www.forgebox.io/view/ztrk-helper)](https://www.forgebox.io/api/v1/entry/ztrk-helper/badges/version)
-![Master Branch Download Status(https://www.forgebox.io/view/ztrk-helper)](https://www.forgebox.io/api/v1/entry/ztrk-helper/badges/downloads)
+![Master Branch Build Status(https://www.forgebox.io/view/ztrk-helper)](https://www.forgebox.io/api/v1/entry/ztrk-helper/badges/version)![Master Branch Download Status(https://www.forgebox.io/view/ztrk-helper)](https://www.forgebox.io/api/v1/entry/ztrk-helper/badges/downloads)
 
-... 
 The PO team created a REST API to insert custom tracking records into the SAP table ZTRK. This helper will simplified the use and implementation of that REST api
 ...
 
