@@ -1,4 +1,7 @@
 # scs-ztrk-helper
+![Master Branch Build Status(https://www.forgebox.io/view/ztrk-helper)](https://www.forgebox.io/api/v1/entry/ztrk-helper/badges/version)
+![Master Branch Download Status(https://www.forgebox.io/view/ztrk-helper)](https://www.forgebox.io/api/v1/entry/ztrk-helper/badges/downloads)
+
 ... 
 The PO team created a REST API to insert custom tracking records into the SAP table ZTRK. This helper will simplified the use and implementation of that REST api
 ...
@@ -13,7 +16,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This Module asumes that you have a ZTRK table in SAP and that an API to insert records is available
+This Module asumes that you have a ZTRK table in SAP and that an API to insert records is available.
+
+This Module have a dependency on another module called 'api-auth-helper'.  See the module documentation if it needs to be configure. [api-auth-helper](https://github.com/octanner/scs-api-auth-helper)
 
 ### Installing
 

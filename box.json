@@ -4,7 +4,7 @@
     "changelog":"",
     "contributors":[],
     "dependencies":{
-        "api-auth-helper":"^1.0.2"        
+        "api-auth-helper":"^1.0.2"
     },
     "description":"",
     "devDependencies":{
@@ -30,7 +30,7 @@
         }
     ],
     "location":"ForgeboxStorage",
-    "name":"Tracking Helper",
+    "name":"ZTRK Helper",
     "private":false,
     "projectURL":"",
     "repository":{
@@ -41,5 +41,5 @@
     "shortDescription":"A module to help insert order tracking records into SAP",
     "slug":"ztrk-helper",
     "type":"modules",
-    "version":"1.0.0"
+    "version":"1.0.1"
 }
