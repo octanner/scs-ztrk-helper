@@ -1,30 +1,29 @@
 component singleton {
 
-	property name='settings'      inject='coldbox:setting:inventory-helper';
+	property name='settings'      inject='coldbox:setting:ztrk-helper';
 	property name='apiAuthHelper' inject='ApiAuthHelper';
 
-	public struct function insertRecord(
+	public struct function insert(
 		required string cell,
 		required string comments,
 		required string dept,
 		required string document,
-		required string in_out,
+		required string inOut,
 		required string seq,
-		required string uname,
-		required string useimport = ''
+		required string uName,
+		required string useImport
 	) {
 		var authToken   = apiAuthHelper.getApiToken();
 		var codeRequest = {
 			'Row' : {
-				'Document_Date' : arguments.Document_Date,
-				'cell'          : arguments.cell,
-				'comments'      : arguments.comments,
-				'dept'          : arguments.dept,
-				'document'      : arguments.document,
-				'in_out'        : arguments.in_out,
-				'seq'           : arguments.seq,
-				'uname'         : arguments.uname,
-				'useimport'     : arguments.useimport
+				'cell'      : arguments.cell,
+				'comments'  : arguments.comments,
+				'dept'      : arguments.dept,
+				'document'  : arguments.document,
+				'in_out'    : arguments.inOut,
+				'seq'       : arguments.seq,
+				'uname'     : arguments.uName,
+				'useimport' : arguments.useImport
 			}
 		};
 		try {

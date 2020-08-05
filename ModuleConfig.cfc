@@ -1,7 +1,7 @@
 component {
 
 	// Module Properties
-	this.title              = 'Order Tracking Helper';
+	this.title              = 'ZTRK Helper';
 	this.name               = 'ztrk-helper';
 	this.author             = 'Eduardo Gomez';
 	this.webUrl             = 'https://github.com/octanner/scs-ztrk-helper';
