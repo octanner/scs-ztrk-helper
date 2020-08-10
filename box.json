@@ -1,23 +1,26 @@
 {
-    "name": "ZTRK Helper",
-    "slug": "ztrk-helper",
-    "version": "1.0.1",
-    "private": false,
-    "shortDescription": "A module to help insert order tracking records into SAP",
-    "location":"octanner/scs-ztrk-helper#v1.0.1",
-    "type": "modules",
-    "ignore": ["**/.*", "/test/", "/tests/"],
-    "author": "Eduardo Gomez",
-    "contributors": [],
-    "repository": {
-        "type": "git",
-        "URL": "https://github.com/octanner/scs-ztrk-helper"
+    "name":"ZTRK Helper",
+    "slug":"ztrk-helper",
+    "version":"1.0.2",
+    "private":false,
+    "shortDescription":"A module to help insert order tracking records into SAP",
+    "location":"octanner/scs-ztrk-helper#v1.0.2",
+    "type":"modules",
+    "ignore":[
+        "**/.*",
+        "/test/",
+        "/tests/"
+    ],
+    "author":"Eduardo Gomez",
+    "contributors":[],
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/octanner/scs-ztrk-helper"
     },
-    "dependencies": {
-    "api-auth-helper": "^1.0.2"
+    "dependencies":{
+        "api-auth-helper":"^1.0.2"
     },
-    "devDependencies": {
-    "testbox": "^4.1.0+384"
+    "devDependencies":{
+        "testbox":"^4.1.0+384"
     }
-
 }
