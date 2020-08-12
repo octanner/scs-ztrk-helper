@@ -1,30 +1,26 @@
 {
-    "name":"ZTRK Helper",
-    "slug":"ztrk-helper",
-    "version":"1.0.3",
-    "private":false,
-    "shortDescription":"A module to help insert order tracking records into SAP",
-    "location":"octanner/scs-ztrk-helper#v1.0.3",
-    "type":"modules",
-    "ignore":[
-        "**/.*",
-        "/test/",
-        "/tests/"
-    ],
-    "author":"Eduardo Gomez",
-    "contributors":[],
-    "repository":{
-        "type":"git",
-        "URL":"https://github.com/octanner/scs-ztrk-helper"
+    "name": "ZTRK Helper",
+    "slug": "ztrk-helper",
+    "version": "1.0.3",
+    "private": false,
+    "shortDescription": "A module to help insert order tracking records into SAP",
+    "location": "octanner/scs-ztrk-helper#v1.0.3",
+    "type": "modules",
+    "ignore": ["**/.*", "/test/", "/tests/"],
+    "author": "Eduardo Gomez",
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "URL": "https://github.com/octanner/scs-ztrk-helper"
     },
-    "scripts":{
-        "postVersion":"package set location='octanner/scs-ztrk-helper#v`package version`'",
-        "prePublish":"echo 'git tag v`env show interceptData.BOXJSON.version`' | run && echo 'git push origin v`env show interceptData.BOXJSON.version`' | run"
+    "scripts": {
+        "postVersion": "package set location='octanner/scs-ztrk-helper#v`package version`'",
+        "prePublish": "echo 'git tag v`env show interceptData.BOXJSON.version`' | run && echo 'git push origin v`env show interceptData.BOXJSON.version`' | run"
     },
-    "dependencies":{
-        "api-auth-helper":"^1.0.2"
+    "dependencies": {
+        "api-auth-helper": "^1.0.2"
     },
-    "devDependencies":{
-        "testbox":"^4.1.0+384"
+    "devDependencies": {
+        "testbox": "^4.1.0+384"
     }
 }
