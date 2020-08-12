@@ -19,10 +19,10 @@ component singleton {
 			'comments'  : arguments.comments,
 			'dept'      : arguments.dept,
 			'document'  : arguments.document,
-			'in_out'    : arguments.inOut,
+			'inOut'    : arguments.inOut,
 			'seq'       : arguments.seq,
-			'uname'     : arguments.uName,
-			'useimport' : arguments.useImport
+			'uName'     : arguments.uName,
+			'useImport' : arguments.useImport
 		};
 		try {
 			cfhttp(
