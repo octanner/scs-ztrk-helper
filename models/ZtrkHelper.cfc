@@ -15,16 +15,14 @@ component singleton {
 	) {
 		var authToken   = apiAuthHelper.getApiToken();
 		var codeRequest = {
-			'Row' : {
-				'cell'      : arguments.cell,
-				'comments'  : arguments.comments,
-				'dept'      : arguments.dept,
-				'document'  : arguments.document,
-				'in_out'    : arguments.inOut,
-				'seq'       : arguments.seq,
-				'uname'     : arguments.uName,
-				'useimport' : arguments.useImport
-			}
+			'cell'      : arguments.cell,
+			'comments'  : arguments.comments,
+			'dept'      : arguments.dept,
+			'document'  : arguments.document,
+			'in_out'    : arguments.inOut,
+			'seq'       : arguments.seq,
+			'uname'     : arguments.uName,
+			'useimport' : arguments.useImport
 		};
 		try {
 			cfhttp(
