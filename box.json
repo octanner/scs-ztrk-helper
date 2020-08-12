@@ -1,10 +1,10 @@
 {
     "name": "ZTRK Helper",
     "slug": "ztrk-helper",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "private": false,
     "shortDescription": "A module to help insert order tracking records into SAP",
-    "location": "octanner/scs-ztrk-helper#v1.0.3",
+    "location": "octanner/scs-ztrk-helper#v1.0.4",
     "type": "modules",
     "ignore": ["**/.*", "/test/", "/tests/"],
     "author": "Eduardo Gomez",
