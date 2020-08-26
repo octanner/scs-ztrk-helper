@@ -24,27 +24,27 @@ This Module have a dependency on another module called 'api-auth-helper'.  See t
 Making sure you add 'ztrk-helper' node to the moduleSettings object in the Coldbox.cfc (if not present add it inside of the configure() function )
 ```
     moduleSettings = {
-            'ztrk-helper' : { 'orderTrackingUrl' : '[your endpoint API]' }
+            'ztrk-helper' : { 'baseUrl' : '[your endpoint API]' }
         }; 
 ```
 *Step 2:* Instanciate your Model from your newly installed Module
 Create a new property and inject the model of your choice. The pattern to inject its value is in this manner [Model]@[Module] 
 ```
-    property name='ztrkHelper' inject='ztrkHelper@ztrk-helper'
+    property name='ztrkHelper' inject='ztrkHelper@ztrk-helper';
 ```
 *Step 3:* call the print() method and pass your data.
 Once your property has been declared and injected with the model, you are ready to use it, here is and example of the minimum required parameters you need to pass:
 ```
-    ztrkHelper.insertRecord(
-            cell = '',
-            comments = '',
-            dept = '',
-            document = '',
-            in_out = '',
-            seq = '',
-            uname = '',
-            useimport = ''
-        );
+    ztrkHelper.insert(
+			cell      = '',
+			comments  = ''),
+			dept      = '',
+			document  = '',
+			inOut     = '',
+			seq       = '',
+			uname     = '',
+			useimport = ''
+		);
 ```
 *Note that all fields are required.* 
 

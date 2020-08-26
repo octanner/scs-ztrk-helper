@@ -19,7 +19,7 @@ component singleton {
 			'comments'  : arguments.comments,
 			'dept'      : arguments.dept,
 			'document'  : arguments.document,
-			'inOut'    : arguments.inOut,
+			'inOut'     : arguments.inOut,
 			'seq'       : arguments.seq,
 			'uName'     : arguments.uName,
 			'useImport' : arguments.useImport
@@ -28,7 +28,7 @@ component singleton {
 			cfhttp(
 				method  = 'POST',
 				charset = 'utf-8',
-				url     = settings.orderTrackingUrl,
+				url     = settings.baseUrl,
 				result  = 'result'
 			) {
 				cfhttpparam(
